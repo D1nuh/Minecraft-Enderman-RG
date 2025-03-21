@@ -9,6 +9,8 @@ local attack = 5
 local defence = 9
 local speed = 5
 
+--comando de 
+local StyleProfileBar = "================================================"
 
 -- função
 local function  Progresso(atributos)
@@ -35,7 +37,7 @@ local function  Progresso(atributos)
 end
 
 print("")
-print("================================================")
+print(StyleProfileBar)
 print("")
 print("- " .. name.. " -")
 print("- " .. description.. " -")
